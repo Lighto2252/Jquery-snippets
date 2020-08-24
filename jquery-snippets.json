@@ -1,0 +1,49 @@
+{
+
+	"ready":{
+		"prefix": "ready",
+		"body": "$(function(){\n\t$1\n});",
+		"description": "Ready Document "
+	},
+	"function":{
+		"prefix": "fon",
+		"body": "function() {\n\t$1\n}",
+		"description": "Function to Execute"
+	},
+	"hover":{
+		"prefix": ".hover",
+		"body": "$('$1').hover();",
+		"description": "On Hover Element"
+	},
+	"jquery":{
+		"prefix": "select",
+		"body": "$('$1')",
+		"description": "Jquery selector "
+	},
+	"animate ":{
+		"prefix": ".animate",
+		"body": [".animate({$1},Time$2);"],
+		"description": "Jquery Animate"
+	},
+	"click":{
+		"prefix": ".ck",
+		"body": ".click($1);",
+		"description": "on click button"
+	},
+	"width":{
+		"prefix": ".css",
+		"body": [".css(propetry$1,value$2);"],
+		"description": "Jquery Css"
+	},
+	"stop":{
+		"prefix": ".stop",
+		"body": ".stop() ; ",
+		"description": "stop first animate and go to second"
+	},
+	"Toggle":{
+		"prefix": ".tog",
+		"body": ".toggle(function$1);",
+		"description": "Jquery Toggle"
+	},
+
+	}
